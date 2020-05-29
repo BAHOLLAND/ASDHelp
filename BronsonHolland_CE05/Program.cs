@@ -9,11 +9,11 @@ namespace BronsonHolland_CE05
             while (true)
             {
                 Console.Write(
-                    "1. Otter\n" +
+                    "1. Otter (trainable)\n" +
                     "2. Shark\n" +
-                    "3. Dolphin\n" +
+                    "3. Dolphin (trainable)\n" +
                     "4. Alligator\n" +
-                    "5. Dog\n" +
+                    "5. Dog (trainable)\n" +
                     "6. Turrtle\n" +
                     "7. Exit\n" +
                     "Please select one of the options: ");
