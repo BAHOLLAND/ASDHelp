@@ -9,71 +9,58 @@ namespace BronsonHolland_CE05
             while (true)
             {
                 Console.Write(
-                    "1. Hire dealer\n" +
-                    "2. Invite player\n" +
-                    "3. Create card\n" +
-                    "4. Deal card\n" +
-                    "5. Play card\n" +
-                    "6. Display hand\n" +
-                    "7. Display all\n" +
-                    "8. Exit\n" +
-                    "Please select one of the menu options: ");
+                    "1. Otter\n" +
+                    "2. Shark\n" +
+                    "3. Dolphin\n" +
+                    "4. Alligator\n" +
+                    "5. Dog\n" +
+                    "6. Turrtle\n" +
+                    "7. Exit\n" +
+                    "Please select one of the options: ");
                 string input = Console.ReadLine().ToLower();
 
                 switch (input)
                 {
                     case "1":
-                    case "hire dealer":
+                    case "otter":
                         {
-                            currentDealer = HireDealer();
-                            PauseAndExcept();
+
                         }
                         break;
                     case "2":
-                    case "invite player":
+                    case "shark":
                         {
-                            InvitePlayer(currentDealer);
-                            PauseAndExcept();
+
                         }
                         break;
                     case "3":
-                    case "create card":
+                    case "dolphin":
                         {
-                            CreateCard(currentDealer);
-                            PauseAndExcept();
+
                         }
                         break;
                     case "4":
-                    case "deal card":
+                    case "alligator":
                         {
-                            DealCard(currentDealer);
-                            PauseAndExcept();
+
                         }
                         break;
                     case "5":
-                    case "play card":
+                    case "dog":
                         {
-                            PlayCard(currentDealer);
-                            PauseAndExcept();
+
                         }
                         break;
                     case "6":
-                    case "display hand":
+                    case "turtle":
                         {
-                            DisplayHand(currentDealer);
-                            PauseAndExcept();
+
                         }
                         break;
                     case "7":
-                    case "display all":
+                    case "exit":
                         {
-                            DisplayAll(currentDealer);
-                            PauseAndExcept();
-                        }
-                        break;
-                    case "8":
-                    case "Exit":
-                        {
+
                             Exit();
                             return;
                         }
